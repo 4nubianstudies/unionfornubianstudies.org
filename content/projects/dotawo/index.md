@@ -18,6 +18,8 @@ The *Dotawo Monograph* series presents both unpublished material from the field 
 ## Team
 
 ### Managing Editors
+* Vincent W.J. van Gerven Oei (independent scholar)
+* Alexandros Tsakos (University of Bergen)
 
 ### Editorial Board
 * Mohamed Abdelrahman (independent scholar)
