@@ -1,0 +1,49 @@
+baseURL = "www.unionfornubianstudies.org"
+languageCode = "en-us"
+title = "Union for Nubian Studies"
+themesDir = "../themes"
+theme = "hugo-whisper-theme"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/projects'
+  homepage_button_text = 'Projects'
+  homepage_intro = 'The Union for Nubian Studies (UNS) is an academic and para-academic effort to bring together all fields of Nubian studies.'
+  #homepage_image = '/images/terminal.gif'
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "The Union for Nubian Studies (UNS) is an academic and para-academic effort to bring together all fields of Nubian studies."
+    meta_og_title = "Union for Nubian Studies"
+    meta_og_type = "website"
+    meta_og_url = "http://unionfornubianstudies.org/"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_description = "The Union for Nubian Studies (UNS) is an academic and para-academic effort to bring together all fields of Nubian studies."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@@4nubianstudies"
+    meta_twitter_creator = "@@4nubianstudies"
+
+  [params.logo]
+      mobile = "/images/uns-logo.png"
+      standard  = "/images/uns-logo.png"
